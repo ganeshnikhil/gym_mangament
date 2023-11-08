@@ -12,6 +12,7 @@ from requests import post
 
 PATH = "gym_info.json"
 CHARGE=1000
+# your phone no
 PHONE="+91"
 
 def is_valid_email(string):
@@ -29,9 +30,9 @@ def send_whatsapp_msg(name:str , amount:int , to_phone_no:str):
    # and set the environment variables. See http://twil.io/secure
    try:
       ## Your Twilio Account SID and Auth Token
-      account_sid = ""
+      account_sid = "your_account_sid"
       ## Your token
-      auth_token = ""
+      auth_token = "your_auth_token"
       
       client = Client(account_sid, auth_token)
       message = client.messages.create(
@@ -96,14 +97,13 @@ def send_email(name:str,email:str ,id:str,amount:int,receiver_email:str):
    smtp_server = "smtp.gmail.com"
    
    ## Your email
-   sender_email = ""
+   sender_email = "your_email"
    
    # check is email adress valid 
    if is_valid_email(receiver_email) and is_valid_email(sender_email):
-      #receiver_email = "parimalsamrat1234@gmail.com"
       try:
          ## password
-         password=""
+         password="Your_smptlib_password"
          #password = input("Type your password and press enter:")
          context = ssl.create_default_context()
          with smtplib.SMTP(smtp_server, port) as server:
