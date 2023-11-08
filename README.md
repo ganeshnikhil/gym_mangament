@@ -33,7 +33,7 @@ json data register format for each user
 # Json data format
 
 ```
-/ unique id
+// unique id
 "672": 
 
    {  "username": "client_name",
@@ -54,6 +54,6 @@ json data register format for each user
                          "2023-08-16 1000"]
                 
     }
-} ```
+}
 
 
