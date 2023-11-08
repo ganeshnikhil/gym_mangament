@@ -27,9 +27,7 @@ You can use these functions to manage user accounts, deposit money, and send pay
 
 
 ### Detailed explantion
-
-first think about how backend of project will work . 
-you have to implement functions to check account details  register new user with unique id , phone number , gmail  , date of registration and deposit log list which have date of payment  and  amount.  . you have to get some api . it is for sending sms you can use twilio api and use smptlib  api for sending email . get api keys of both . you can send sms and email when the last transaction  month and current month gap difference  is greater than 0 send sms and gmail about payment dues also create a function to delete user account when needed you can delete user. for storing data you can use .json file format . for large user base you can use sql database But for know 100 to 200 people json file format is good to go. Use python twilio.client  library to send msg on whatsapp msg get  api  key from twilio website  ...
+implement functions to check account details  register new user with unique id , phone number , gmail  , date of registration and deposit log list which have date of payment  and  amount.  . you have to get some api . it is for sending sms you can use twilio api and use smptlib  api for sending email . get api keys of both . you can send sms and email when the last transaction  month and current month gap difference  is greater than 0 send sms and gmail about payment dues also create a function to delete user account when needed you can delete user. for storing data you can use .json file format . for large user base you can use sql database But for know 100 to 200 people json file format is good to go. Use python twilio.client  library to send msg on whatsapp msg get  api  key from twilio website  ...
 json data register format for each user
 
 # Json data format
