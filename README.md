@@ -38,7 +38,7 @@ json data register format for each user
 
    {  "username": "client_name",
 
-      "account_created": "2023-06-16 16:06:57",
+      "account_created": "2023-05-16 16:06:57",
 
       "gmail":"client_gmail", 
 
@@ -48,8 +48,12 @@ json data register format for each user
 
 // transaction log  ["date_of_deposit amount"]
 
-     "transaction_date": ["2023-06-16 4","2023-06-19 10","T 2023-06-19 10","2023-07-08 1000","2023-07-08  1000","2023-07-08 2000","2023-08-22 100"]}
-
+     "transaction_date": ["2023-05-16 1000",
+                         "2023-06-16 1000",
+                         "2023-07-16 1000",
+                         "2023-08-16 1000"]
+                
+    }
 } ```
 
 
