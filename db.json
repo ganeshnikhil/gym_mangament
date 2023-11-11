@@ -1,23 +1,9 @@
 {
     "144": {
-        "username": "parimal",
-        "account_created": "2023-11-08 04:32:34PM",
-        "phone_no": "+919798711431",
-        "gmail": "parimalsamrat126@gmail.com",
-        "total_money": 4000,
-        "transaction_date": [
-            "2023-11-08 1000",
-            "2023-12-08 1000",
-            "2024-01-08 1000",
-            "2024-02-08 1000",
-            "2024-03-08 1000"
-        ]
-    },
-    "607": {
-        "username": "ganesh",
-        "account_created": "2023-11-08 09:46:15PM",
-        "phone_no": "+919835872530",
-        "gmail": "ganeshnikhil124@gmail.com",
+        "username": "name",
+        "account_created": "date_of_creation",
+        "phone_no": "client_phone_number",
+        "gmail": "client_gmail",
         "total_money": 4000,
         "transaction_date": [
             "2023-11-08 1000",
@@ -27,4 +13,5 @@
             "2024-03-08 1000"
         ]
     }
+    
 }
