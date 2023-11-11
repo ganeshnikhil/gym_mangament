@@ -95,7 +95,6 @@ def send_email(name:str,email:str ,id:str,amount:int,receiver_email:str):
    
    # check is email adress valid 
    
-      #receiver_email = "parimalsamrat1234@gmail.com"
    try:
       ## password
       #password=""
