@@ -14,12 +14,14 @@ The backend is implemented in Python and uses JSON files for data storage. The f
 3. **is_valid_email(email):** Validates email addresses (custom logic can be implemented).
 4. **is_valid_phone(phone):** Validates phone numbers (custom logic can be implemented).
 5. **send_sms(api_key, to, message):** Sends SMS messages using the Twilio API.
-6. **send_email(subject, message, to, from_email, password):** Sends email using SMTP (credentials need to be set up).
-7. **create_account(data, unique_id, username, gmail, phone_no, total_money):** Creates a new user account.
-8. **check_account(data, unique_id):** Checks account details of a user using their unique ID.
-9. **deposit_account(data, unique_id, amount):** Deposits money for a service into a user's account.
-10. **delete_account(data, unique_id):** Deletes a user account.
-11. **send_payment_due_notifications(data, api_key_twilio, api_key_smtp, smtp_email, smtp_password):** Sends payment due notifications to users.
+6. **month_gap(last_transaction_date):** it calculates the gap between transactions
+7. **distribute_amount(total_amount)** if user paid in advance then distribute the  amount paid in transaction log.
+8. **send_email(subject, message, to, from_email, password):** Sends email using SMTP (credentials need to be set up).
+9. **create_account(data, unique_id, username, gmail, phone_no, total_money):** Creates a new user account.
+10. **check_account(data, unique_id):** Checks account details of a user using their unique ID.
+11. **deposit_account(data, unique_id, amount):** Deposits money for a service into a user's account.
+12. **delete_account(data, unique_id):** Deletes a user account.
+13. **send_payment_due_notifications(data, api_key_twilio, api_key_smtp, smtp_email, smtp_password):** Sends payment due notifications to users.
 
 ### Example Usage
 
