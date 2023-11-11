@@ -46,7 +46,7 @@ json data register format for each user
 
      "phone_no":"client_phone_no",
 
-     "total_money": 124,
+     "total_money": 4000,
 
 // transaction log  ["date_of_deposit amount"]
 
