@@ -4,31 +4,10 @@ from datetime import datetime
 import random
 from prettytable import PrettyTable
 
-from dotenv import load_dotenv
 from send_msg import send_whatsapp_msg , send_sms , send_email
 from isauthentic import is_valid_email , is_valid_phone_no
-#Fobvad-bumren-3zorvy
-#recovery code 
-#M93FUVBSJPLWLAAJDCUP5YVW
-#if not os.path.exists('.env'):
-   #change_enviro()
 
-load_dotenv()
-
-# SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
-
-# SMS_ACCOUNT_SID = os.getenv("SMS_ACCOUNT_SID")
-# SMS_AUTH_TOKEN = os.getenv("SMS_AUTH_TOKEN")
-
-# WHATSAPP_ACCOUNT_SID = os.getenv("WHATSAPP_ACCOUNT_SID")
-# WHATSAPP_AUTH_TOKEN = os.getenv("WHATSAPP_AUTH_TOKEN")
-
-# EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
-
-#PHONE=os.getenv("PHONE")
-
-
-
+#global variables 
 CHARGE=1000
 PATH = "db.json"
 
